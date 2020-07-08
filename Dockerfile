@@ -30,7 +30,7 @@ ARG SSL=true
 #To enable monitoring, you must be using servlet-3.1 and set the monitoring value to true in this file, and also in the values.yaml for the chart.
 ARG MP_MONITORING=false
 ARG HTTP_ENDPOINT=false
-
+ARG VERBOSE=true
 RUN mkdir -p /opt/ibm/wlp/usr/shared/config/lib/global
 COPY --chown=1001:0 --from=build-stage /config/ /config/
 COPY --chown=1001:0 --from=build-stage /sharedlibs/ /opt/ibm/wlp/usr/shared/config/lib/global
