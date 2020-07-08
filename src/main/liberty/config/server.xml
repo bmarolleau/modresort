@@ -2,7 +2,7 @@
 Wed Jul 08 09:32:44 UTC 2020--><server>
 <!--These elements have been identified from this application's configuration.-->
 <featureManager>
-<feature>servlet-3.0</feature>
+<feature>servlet-3.1</feature>
 </featureManager>
 <!-- <variable name="DERBY_JDBC_DRIVER_PATH" value="${WAS_INSTALL_ROOT}/derby/lib"/> -->
 <httpEndpoint host="*" httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint"/>
